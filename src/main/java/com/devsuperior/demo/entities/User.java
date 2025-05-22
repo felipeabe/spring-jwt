@@ -74,7 +74,7 @@ public class User {
 
     public boolean hasRole(String roleName){
         for (Role role: roles){
-            role.getAuthority().equals(roleName){
+            role.getAuthority().equals(roleName);{
                 return true;
             }
         }
